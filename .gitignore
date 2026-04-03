@@ -1,11 +1,3 @@
 /target
-# Standard Rust ignore
-/target
-Cargo.lock
-
-# IDE specific
-.vscode/
-.idea/
-
-# OS specific
 .DS_Store
+**/*.rs.bk

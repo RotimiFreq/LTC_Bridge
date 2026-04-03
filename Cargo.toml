@@ -1,6 +1,22 @@
 [package]
 name = "ltc_bridge"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+# Audio I/O
+cpal = "0.17.3"
+
+# Networking (OSC for Music Tribe)
+rosc = "0.11.4"
+
+# Error Handling & Logging
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.11.9" # Allows us to see debug logs in the terminal
+
+# Data Handling
+serde = { version = "1.0", features = ["derive"] }
+toml = "1.0.3+spec-1.1.0"
+
+x42ltc-sys = "0.0.6"  # The engine that does the heavy lifting
