@@ -19,4 +19,7 @@ env_logger = "0.11.9" # Allows us to see debug logs in the terminal
 serde = { version = "1.0", features = ["derive"] }
 toml = "1.0.3+spec-1.1.0"
 
-x42ltc-sys = "0.0.6"  # The engine that does the heavy lifting
+x42ltc-sys = "0.0.6"  # The engine ltc in C
+
+
+ 
